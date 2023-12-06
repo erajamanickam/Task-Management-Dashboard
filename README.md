@@ -1,70 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend Task Assignment: Task Management Web Application
 
-## Available Scripts
+Task Management is designed to streamline task management within agile teams. It offers a visual Task Board layout, robust drag-and-drop functionality, and comprehensive task cards that enhance collaboration and productivity.
 
-In the project directory, you can run:
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Dashboard**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h12m7fvv86z0yrttor0p.PNG)
 
-### `npm test`
+**Dark Mode**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rf8cjowplln6nuc2azc5.PNG)
+## Features
 
-### `npm run build`
+ - **Task Board Layout and Drag-and-Drop** - Task Managment incorporates a responsive Task Board layout, categorizing tasks into columns such as **To Do, In Progress, Testing, and Done.** The intuitive drag-and-drop functionality allows users to effortlessly move tasks between these columns, reflecting real-time progress.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Task Cards** - Each task card displays key information, including task name, assignee, priority, start date, and effort spent. This approach ensures that users have all relevant details at their fingertips.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Task Metrics** - Task metrics, such as the total number of tasks, people involved, and cumulative effort spent, are dynamically calculated and presented on the dashboard, providing valuable insights into project progress.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Search Functionality** - Task Managment incorporates a robust search functionality that enables users to search for tasks by name across all task groups. This feature enhances efficiency in locating specific tasks within the project.
 
-### `npm run eject`
+- **Filters** - Users can filter tasks based on Start/End dates, assignees, and severity. This flexibility allows teams to focus on specific subsets of tasks, improving task management and planning.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Colors/Badges for Task Severity** - To visually distinguish task severity, Task Managment assigns unique colors or badges to each severity level (High, Medium, Low). This visual cue aids quick identification and prioritization of tasks.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Light and Dark Mode** - Task Managment offers users the choice between light and dark modes to accommodate different preferences and reduce eye strain during prolonged usage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Challenges Faced
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Developing a seamless drag-and-drop functionality posed initial challenges, which were overcome through thorough testing and collaboration.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+Install **task-management** with npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm install task-management
+  cd task-management
+  npm run dev
+```
+    
+## Conclustion
 
-### Analyzing the Bundle Size
+Task management successfully achieves its goal of providing a robust agile task management solution. The implementation of key features ensures a user-friendly experience and effective collaboration within agile teams.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

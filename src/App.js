@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import Tasks from './components/Tasks';
+import { DarkModeProvider } from './components/DarkModeContext';
+import './Style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
+
+  const [sidebarClosed, setSidebarClosed] = useState(false);
+  const handleSidebarToggle = () => {
+    setSidebarClosed(prevState => !prevState);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DarkModeProvider>
+      <div className="App">
+        <Sidebar sidebarClosed={sidebarClosed} />
+        <Routes>
+          <Route path="/" element={<Tasks handleSidebarToggle={handleSidebarToggle} />} />
+        </Routes>
+      </div>
+    </DarkModeProvider>
   );
 }
 
