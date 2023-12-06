@@ -42,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Task Management is designed to streamline task management within agile teams. It offers a visual Task Board layout, robust drag-and-drop functionality, and comprehensive task cards that enhance collaboration and productivity.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
