@@ -16,7 +16,7 @@ Task Management is designed to streamline task management within agile teams. It
 ## Live Preview
 
 
-https://task-management-dashboard-delta.vercel.app/
+https://task-management-dashboard-react.vercel.app/
 ## Features
 
  - **Task Board Layout and Drag-and-Drop** - Task Managment incorporates a responsive Task Board layout, categorizing tasks into columns such as **To Do, In Progress, Testing, and Done.** The intuitive drag-and-drop functionality allows users to effortlessly move tasks between these columns, reflecting real-time progress.
